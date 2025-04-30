@@ -314,12 +314,16 @@ a:hover {
 
 @media(max-width: 768px) {
     .category-buttons {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         gap: 15px;
     }
 
     .category-button {
-        height: 100px;
+        height: 120px;
+    }
+
+    .category-name {
+        margin-top: 5px;
     }
 
     .content-area {
@@ -334,12 +338,16 @@ a:hover {
 
 @media (max-width: 480px) {
     .category-buttons {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-template-columns: repeat(2,1fr);
         gap: 10px;
     }
 
     .category-button {
-        height: 90px;
+        height: 100px;
+    }
+
+    .category-name {
+        margin-top: 5px;
     }
 
     .container {
