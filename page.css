@@ -268,7 +268,7 @@ footer {
     text-align: center;
     border-radius: 10px;
     box-shadow: var(--noen-shadow);
-    outline: .5px solid var(--card-light);
+    outline: 1px solid var(--card-light);
 }
 
 footer h3 {
